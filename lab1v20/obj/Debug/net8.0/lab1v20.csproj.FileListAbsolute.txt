@@ -1,0 +1,15 @@
+D:\OOP-FORMANIUK\lab1v20\bin\Debug\net8.0\lab1v20.exe
+D:\OOP-FORMANIUK\lab1v20\bin\Debug\net8.0\lab1v20.deps.json
+D:\OOP-FORMANIUK\lab1v20\bin\Debug\net8.0\lab1v20.runtimeconfig.json
+D:\OOP-FORMANIUK\lab1v20\bin\Debug\net8.0\lab1v20.dll
+D:\OOP-FORMANIUK\lab1v20\bin\Debug\net8.0\lab1v20.pdb
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.AssemblyInfoInputs.cache
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.AssemblyInfo.cs
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.csproj.CoreCompileInputs.cache
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.sourcelink.json
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.dll
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\refint\lab1v20.dll
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.pdb
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\lab1v20.genruntimeconfig.cache
+D:\OOP-FORMANIUK\lab1v20\obj\Debug\net8.0\ref\lab1v20.dll
