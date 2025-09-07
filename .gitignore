@@ -1,0 +1,605 @@
+# Создано https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,csharp,dotnetcore
+# Редактировать по адресу https://www.toptal.com/developers/gitignore?templates=visualstudiocode,visualstudio,csharp,dotnetcore
+
+### К-диез ###
+## Игнорировать временные файлы Visual Studio, результаты сборки и
+## файлы, созданные популярными надстройками Visual Studio.
+##
+## Получите последнюю версию с https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Пользовательские файлы
+*.rsuser
+*.suo
+*.пользователь
+*.useroscache
+*.sln.docstates
+
+# Пользовательские файлы (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono автоматически сгенерированные файлы
+mono_crash.*
+
+# Результаты сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Рр]релиз/
+[Rr]релизы/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Аа][Рр][Мм]/
+[Аа][Рр][Мм]64/
+здание/
+[Bb]в/
+[Оо]бж/
+[Лл]ог/
+[Лл]огс/
+
+# Каталог кэша/параметров Visual Studio 2015/2017
+.против/
+# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
+#wwwroot/
+
+# Автоматически сгенерированные файлы Visual Studio 2017
+Сгенерированные\ Файлы/
+
+# Результаты теста MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Результаты сборки проекта ATL
+[Dd]ebugPS/
+[Rr]releasePS/
+dlldata.c
+
+# Результаты тестов
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+проект.lock.json
+проект.фрагмент.lock.json
+артефакты/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Файлы, созданные Visual Studio
+*_IC
+*_п.с
+*_ч.ч
+*.ilk
+*.мета
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.бревно
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Тестовые файлы на хуцпу
+_Хуцпа*
+
+# Файлы кэша Visual C++
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.кэшфайл
+*.VC.db
+*.VC.VC.opendb
+
+# Профилировщик Visual Studio
+*.псесс
+*.vsp
+*.vspx
+*.sap
+
+# Файлы трассировки Visual Studio
+*.e2e
+
+# Локальное рабочее пространство TFS 2012
+$тф/
+
+# Набор инструментов для автоматизации наведения
+*.gpState
+
+# ReSharper — это надстройка для .NET-кодирования.
+_ReSharper*/
+*.[Rr]e[Ss]харпер
+*.DotSettings.user
+
+# TeamCity — это надстройка для сборки
+_TeamCity*
+
+# DotCover — это инструмент для покрытия кода
+*.dotCover
+
+# AxoCover — это инструмент для покрытия кода
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet — бесплатный кроссплатформенный инструмент для анализа покрытия кода.
+покрытие*.json
+покрытие*.xml
+покрытие*.инфо
+
+# Результаты покрытия кода Visual Studio
+*.покрытие
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# МогучийЛось
+*.мм.*
+AutoTest.Net/
+
+# Веб-верстак (sass)
+.sass-кэш/
+
+# Выходная папка Installshield
+[Ee]xpress/
+
+# DocProject — надстройка для создания документации.
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Каталог Click-Once
+публиковать/
+
+# Опубликовать веб-вывод
+*.[Pp]ublish.xml
+*.azurePubxml
+# Примечание: закомментируйте следующую строку, если вы хотите проверить настройки веб-развертывания,
+# но строки подключения к базе данных (с потенциальными паролями) будут незашифрованы
+*.pubxml
+*.publishproj
+
+# Параметры публикации Microsoft Azure Web App. Закомментируйте следующую строку, если хотите
+# проверяем параметры публикации вашего веб-приложения Azure, но конфиденциальная информация, содержащаяся
+# в этих скриптах будет незашифрованным
+PublishScripts/
+
+# Пакеты NuGet
+*.nupkg
+# Пакеты символов NuGet
+*.snupkg
+# Папку пакетов можно игнорировать из-за восстановления пакетов
+**/[Pp]ackages/*
+# за исключением build/, который используется как цель MSBuild.
+!**/[Pp]ackages/build/
+# Раскомментируйте, если необходимо, но обычно он будет сгенерирован заново при необходимости.
+#!**/[Pp]ackages/repositories.config
+# Файлы project.json NuGet v3 создают больше игнорируемых файлов
+*.nuget.props
+*.nuget.targets
+
+# Выходные данные сборки Microsoft Azure
+csx/
+*.build.csdef
+
+# Эмулятор Microsoft Azure
+ecf/
+rcf/
+
+# Каталоги и файлы пакетов приложений Магазина Windows
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Файлы кэша Visual Studio
+# файлы, заканчивающиеся на .cache, можно игнорировать
+*.[Cc]боль
+# но отслеживайте каталоги, заканчивающиеся на .cache
+!?*.[Cc]ache/
+
+# Другие
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Включение файлов со строгими именами может представлять угрозу безопасности.
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Поскольку рабочих процессов несколько, раскомментируйте следующую строку, чтобы игнорировать bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# Проекты RIA/Silverlight
+Сгенерированный_код/
+
+# Резервное копирование и создание отчетов о преобразовании старого файла проекта
+# на более новую версию Visual Studio. Резервные файлы не нужны,
+# потому что у нас есть git ;-)
+_UpgradeReport_Files/
+Резервное копирование*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# Файлы SQL-сервера
+*.mdf
+*.ldf
+*.ndf
+
+# Проекты бизнес-аналитики
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]backup ([0-9]).rdl
+*- [Bb]backup ([0-9][0-9]).rdl
+
+# Подделки Microsoft
+FakesAssemblies/
+
+# Файл настроек плагина GhostDoc
+*.GhostDoc.xml
+
+# Инструменты Node.js для Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Журнал сборки Visual Studio 6
+*.plg
+
+# Файл параметров рабочего пространства Visual Studio 6
+*.opt
+
+# Автоматически сгенерированный файл рабочего пространства Visual Studio 6 (содержит информацию о том, какие файлы были открыты и т. д.)
+*.vbw
+
+# Автоматически сгенерированный файл проекта Visual Studio 6 (содержит информацию о том, какие файлы были открыты и т. д.)
+*.vbp
+
+# Рабочее пространство Visual Studio 6 и файл проекта (файлы рабочего проекта, содержащие файлы для включения в проект)
+*.dsw
+*.dsp
+
+# Технические файлы Visual Studio 6
+
+# Результат сборки Visual Studio LightSwitch
+**/*.HTMLClient/СгенерированныеАртефакты
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Сервер/СгенерированныеАртефакты
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Менеджер зависимостей пакетов
+.paket/paket.exe
+paket-files/
+
+# ПОДДЕЛКА - F# Сделать
+.фальшивый/
+
+# Персональные настройки CodeRush
+.cr/personal
+
+# Инструменты Python для Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Торт - раскомментируйте, если вы его используете
+# инструменты/**
+# !tools/packages.config
+
+# Студия вкладок
+*.tss
+
+# Конфигурационный файл JustMock от Telerik
+*.jmconfig
+
+# Вывод сборки BizTalk
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# Результаты анализа OpenCover UI
+OpenCover/
+
+# Выходные данные локального запуска Azure Stream Analytics
+ASALocalRun/
+
+# Двоичный и структурированный журнал MSBuild
+*.binlog
+
+# Файл конфигурации отладчика графического процессора NVidia Nsight
+*.nvuser
+
+# Рабочая папка MFractors (инструмент повышения производительности Xamarin)
+.mfractor/
+
+# Локальная история для Visual Studio
+.localhistory/
+
+# Файлы истории Visual Studio (VSHistory)
+.vhistory/
+
+# База данных временных показателей проверки здоровья BeatPulse
+healthchecksdb
+
+# Резервная папка для инструмента Package Reference Convert в Visual Studio 2017
+MigrationBackup/
+
+# Рабочая папка Ionide (кроссплатформенные инструменты F# VS Code)
+.ионид/
+
+# Fody - автоматически сгенерированная XML-схема
+FodyWeavers.xsd
+
+# Файлы VS Code для тех, кто работает с несколькими инструментами
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Локальная история для Visual Studio Code
+.история/
+
+# Файлы установщика Windows из результатов сборки
+*.такси
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+*.sln.iml
+
+### DotnetCore ###
+# Папки сборки .NET Core
+корзина/
+объект/
+
+# Расположение общих узловых модулей
+/node_modules
+/wwwroot/node_modules
+
+### VisualStudioCode ###
+!.vscode/*.code-snippets
+
+# Локальная история для Visual Studio Code
+
+# Встроенные расширения Visual Studio Code
+*.vsix
+
+### Патч VisualStudioCode ###
+# Игнорировать всю локальную историю файлов
+.история
+.ионид
+
+### VisualStudio ###
+
+# Пользовательские файлы
+
+# Пользовательские файлы (MonoDevelop/Xamarin Studio)
+
+# Mono автоматически сгенерированные файлы
+
+# Результаты сборки
+
+# Каталог кэша/параметров Visual Studio 2015/2017
+# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
+
+# Автоматически сгенерированные файлы Visual Studio 2017
+
+# Результаты теста MSTest
+
+# NUnit
+
+# Результаты сборки проекта ATL
+
+# Результаты тестов
+
+# .NET Core
+
+# ASP.NET Scaffolding
+
+# StyleCop
+
+# Файлы, созданные Visual Studio
+
+# Тестовые файлы на хуцпу
+
+# Файлы кэша Visual C++
+
+# Профилировщик Visual Studio
+
+# Файлы трассировки Visual Studio
+
+# Локальное рабочее пространство TFS 2012
+
+# Набор инструментов для автоматизации наведения
+
+# ReSharper — это надстройка для .NET-кодирования.
+
+# TeamCity — это надстройка для сборки
+
+# DotCover — это инструмент для покрытия кода
+
+# AxoCover — это инструмент для покрытия кода
+
+# Coverlet — бесплатный кроссплатформенный инструмент для анализа покрытия кода.
+
+# Результаты покрытия кода Visual Studio
+
+# NCrunch
+
+# МогучийЛось
+
+# Веб-верстак (sass)
+
+# Выходная папка Installshield
+
+# DocProject — надстройка для создания документации.
+
+# Каталог Click-Once
+
+# Опубликовать веб-вывод
+# Примечание: закомментируйте следующую строку, если вы хотите проверить настройки веб-развертывания,
+# но строки подключения к базе данных (с потенциальными паролями) будут незашифрованы
+
+# Параметры публикации Microsoft Azure Web App. Закомментируйте следующую строку, если хотите
+# проверяем параметры публикации вашего веб-приложения Azure, но конфиденциальная информация, содержащаяся
+# в этих скриптах будет незашифрованным
+
+# Пакеты NuGet
+# Пакеты символов NuGet
+# Папку пакетов можно игнорировать из-за восстановления пакетов
+# за исключением build/, который используется как цель MSBuild.
+# Раскомментируйте, если необходимо, но обычно он будет сгенерирован заново при необходимости.
+# Файлы project.json NuGet v3 создают больше игнорируемых файлов
+
+# Выходные данные сборки Microsoft Azure
+
+# Эмулятор Microsoft Azure
+
+# Каталоги и файлы пакетов приложений Магазина Windows
+
+# Файлы кэша Visual Studio
+# файлы, заканчивающиеся на .cache, можно игнорировать
+# но отслеживайте каталоги, заканчивающиеся на .cache
+
+# Другие
+
+# Включение файлов со строгими именами может представлять угрозу безопасности.
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+
+# Поскольку рабочих процессов несколько, раскомментируйте следующую строку, чтобы игнорировать bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+
+# Проекты RIA/Silverlight
+
+# Резервное копирование и создание отчетов о преобразовании старого файла проекта
+# на более новую версию Visual Studio. Резервные файлы не нужны,
+# потому что у нас есть git ;-)
+
+# Файлы SQL-сервера
+
+# Проекты бизнес-аналитики
+
+# Подделки Microsoft
+
+# Файл настроек плагина GhostDoc
+
+# Инструменты Node.js для Visual Studio
+
+# Журнал сборки Visual Studio 6
+
+# Файл параметров рабочего пространства Visual Studio 6
+
+# Автоматически сгенерированный файл рабочего пространства Visual Studio 6 (содержит информацию о том, какие файлы были открыты и т. д.)
+
+# Автоматически сгенерированный файл проекта Visual Studio 6 (содержит информацию о том, какие файлы были открыты и т. д.)
+
+# Рабочее пространство Visual Studio 6 и файл проекта (файлы рабочего проекта, содержащие файлы для включения в проект)
+
+# Технические файлы Visual Studio 6
+
+# Результат сборки Visual Studio LightSwitch
+
+# Менеджер зависимостей пакетов
+
+# ПОДДЕЛКА - F# Сделать
+
+# Персональные настройки CodeRush
+
+# Инструменты Python для Visual Studio (PTVS)
+
+# Торт - раскомментируйте, если вы его используете
+# инструменты/**
+# !tools/packages.config
+
+# Студия вкладок
+
+# Конфигурационный файл JustMock от Telerik
+
+# Вывод сборки BizTalk
+
+# Результаты анализа OpenCover UI
+
+# Выходные данные локального запуска Azure Stream Analytics
+
+# Двоичный и структурированный журнал MSBuild
+
+# Файл конфигурации отладчика графического процессора NVidia Nsight
+
+# Рабочая папка MFractors (инструмент повышения производительности Xamarin)
+
+# Локальная история для Visual Studio
+
+# Файлы истории Visual Studio (VSHistory)
+
+# База данных временных показателей проверки здоровья BeatPulse
+
+# Резервная папка для инструмента Package Reference Convert в Visual Studio 2017
+
+# Рабочая папка Ionide (кроссплатформенные инструменты F# VS Code)
+
+# Fody - автоматически сгенерированная XML-схема
+
+# Файлы VS Code для тех, кто работает с несколькими инструментами
+
+# Локальная история для Visual Studio Code
+
+# Файлы установщика Windows из результатов сборки
+
+# JetBrains Rider
+
+### Патч VisualStudio ###
+# Дополнительные файлы, созданные Visual Studio
+
+# Конец https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,csharp,dotnetcore
