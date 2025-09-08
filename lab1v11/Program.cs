@@ -8,7 +8,7 @@ namespace lab1v11
         //      Властивість
         public int Capacity { get; set; }  // кількість місць
         //      Конструктор
-        public Plane(string airlane, string madel, int capacity)
+        public Plane(string airlane, string model, int capacity)
         {
             this.airline = airlane;
             this.model = model;
@@ -23,15 +23,15 @@ namespace lab1v11
         //     Метод
         public void Fly()
         {
-            Console.WriteLine($"Літак {airline} {model} з {Capacity} місцями здійснив політ.");
+            Console.WriteLine($"Літак {airline} {model} з {Capacity} здійснив політ.");
         }
-        //     Дод ат.Метод для виводу інформації
+        //     Додатковий Метод для виводу інформації
         public void PrintInfo()
         {
             Console.WriteLine($"Авіакомпанія: {airline}, Модель: {model}, Місткість: {Capacity}");
         }
     }
-    
+    // Точка входу в програму - саме звідси починається виконання.
     class Program
     {
         static void Main(string[] args)
@@ -47,6 +47,7 @@ namespace lab1v11
             //   Виведення інформації
             p1.PrintInfo();
             p2.PrintInfo();
+            // Завершення програми
             Console.ReadKey();
         }
     }
