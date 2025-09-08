@@ -12,3 +12,4 @@ D:\OOP-Formaniuk\lab1v11\obj\Debug\net8.0\refint\lab1v11.dll
 D:\OOP-Formaniuk\lab1v11\obj\Debug\net8.0\lab1v11.pdb
 D:\OOP-Formaniuk\lab1v11\obj\Debug\net8.0\lab1v11.genruntimeconfig.cache
 D:\OOP-Formaniuk\lab1v11\obj\Debug\net8.0\ref\lab1v11.dll
+D:\OOP-Formaniuk\lab1v11\obj\Debug\net8.0\lab1v11.sourcelink.json

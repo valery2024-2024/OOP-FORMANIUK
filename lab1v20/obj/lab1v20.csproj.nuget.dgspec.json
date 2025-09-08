@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OOP-FORMANIUK\\lab1v20\\lab1v20.csproj": {}
+    "D:\\OOP-Formaniuk\\lab1v20\\lab1v20.csproj": {}
   },
   "projects": {
-    "D:\\OOP-FORMANIUK\\lab1v20\\lab1v20.csproj": {
+    "D:\\OOP-Formaniuk\\lab1v20\\lab1v20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OOP-FORMANIUK\\lab1v20\\lab1v20.csproj",
+        "projectUniqueName": "D:\\OOP-Formaniuk\\lab1v20\\lab1v20.csproj",
         "projectName": "lab1v20",
-        "projectPath": "D:\\OOP-FORMANIUK\\lab1v20\\lab1v20.csproj",
+        "projectPath": "D:\\OOP-Formaniuk\\lab1v20\\lab1v20.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\OOP-FORMANIUK\\lab1v20\\obj\\",
+        "outputPath": "D:\\OOP-Formaniuk\\lab1v20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

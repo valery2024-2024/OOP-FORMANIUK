@@ -13,21 +13,25 @@ namespace lab1v11
             this.airline = airlane;
             this.model = model;
             this.Capacity = capacity;
-            Console.WriteLine($"Створено літак {airlane} {model}, місткість: {capacity}");
+
+            Console.WriteLine($"Створено літак {airlane}, {model}, місткість: {capacity}");
         }
         //     Деструктор
         ~Plane()
         {
-            Console.WriteLine($"Об'єкт літака {airline} {model} знищено.");
+
+            Console.WriteLine($"Об'єкт літака {airline}, {model} знищено.");
         }
         //     Метод
         public void Fly()
         {
-            Console.WriteLine($"Літак {airline} {model} з {Capacity} здійснив політ.");
+
+            Console.WriteLine($"Літак {airline}, {model} з {Capacity} здійснив політ.");
         }
         //     Додатковий Метод для виводу інформації
         public void PrintInfo()
         {
+
             Console.WriteLine($"Авіакомпанія: {airline}, Модель: {model}, Місткість: {Capacity}");
         }
     }
@@ -47,7 +51,9 @@ namespace lab1v11
             //   Виведення інформації
             p1.PrintInfo();
             p2.PrintInfo();
+            
             // Завершення програми
+            Console.WriteLine("\nHaтиcнiть будь-яку клавішу для завершення...");
             Console.ReadKey();
         }
     }
