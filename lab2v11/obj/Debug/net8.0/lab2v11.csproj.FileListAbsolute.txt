@@ -1,0 +1,15 @@
+D:\OOP-Formaniuk\lab2v11\bin\Debug\net8.0\lab2v11.exe
+D:\OOP-Formaniuk\lab2v11\bin\Debug\net8.0\lab2v11.deps.json
+D:\OOP-Formaniuk\lab2v11\bin\Debug\net8.0\lab2v11.runtimeconfig.json
+D:\OOP-Formaniuk\lab2v11\bin\Debug\net8.0\lab2v11.dll
+D:\OOP-Formaniuk\lab2v11\bin\Debug\net8.0\lab2v11.pdb
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.AssemblyInfoInputs.cache
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.AssemblyInfo.cs
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.csproj.CoreCompileInputs.cache
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.sourcelink.json
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.dll
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\refint\lab2v11.dll
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.pdb
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\lab2v11.genruntimeconfig.cache
+D:\OOP-Formaniuk\lab2v11\obj\Debug\net8.0\ref\lab2v11.dll
