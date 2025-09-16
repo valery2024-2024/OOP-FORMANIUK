@@ -23,6 +23,7 @@
 * Через ключове слово (this), яке дозволяє звертатися до об'єкта як до масиву.
 Індексатор дає можливість звертатись до об'єктів класу так само, як до масиву.
 Приклад:
+```
 private int[] numbers = new int[5];
 public int this[int index]
 {
@@ -31,16 +32,20 @@ public int this[int index]
 }
 
 Тепер можна писати: obj[0] = 10;
-                   Console.WriteLine(obj[0]);
+Console.WriteLine(obj[0]);
+```
+                   
 ## 4) Як перевантажуються оператори в C#?                   
 * Через спеціальні методи з ключовим словом (operator), 
 які визначають нову поведінку операторів (+, -, >, < та інш.).
 Приклад:
+```
 public static Student operator +(Student s, int grade)
 {
     s.AddGrade(grade);
     return s;
 }
+```
 Тепер можна писати: studenr = student + 12; і це викличе перевантажений метод.
 
 
