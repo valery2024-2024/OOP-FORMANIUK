@@ -146,12 +146,12 @@ namespace lab3v11
                 Console.WriteLine(inst.Play());
                 int pieces = inst.CountPiecesForConcert(concertMinutes);
                 totalPieces += pieces;
-                Console.WriteLine($" → {inst.Name}: можна зіграти ≈ {pieces} композицій за {concertMinutes} хв.\n");
+                Console.WriteLine($"  {inst.Name}: можна зіграти ≈ {pieces} композицій за {concertMinutes} хв.\n");
             }
 
             Console.WriteLine($"Загалом орієнтовно: {totalPieces} композицій усіма інструментами.\n");
 
-            // 4) Демонстрація роботи деструктора (НЕобов'язково, але є у критеріях)
+            // 4) Демонстрація роботи деструктора (не обов'язково, але є у критеріях)
             //    Створимо тимчасовий об'єкт у блоці, вийдемо зі scope і попросимо GC.
             CreateAndDropTemp();
             GC.Collect();
