@@ -839,3 +839,36 @@
 
   </body>
 </html>
+
+# === .NET / C# ===
+# Папки збірки
+[Bb]in/
+[Oo]bj/
+**/bin/
+**/obj/
+Debug/
+Release/
+TestResults/
+artifacts/
+
+# Пакети/кеші
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Логи/кеші
+*.log
+*.cache
+
+# OS сміття
+.DS_Store
+Thumbs.db
