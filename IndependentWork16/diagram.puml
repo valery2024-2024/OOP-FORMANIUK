@@ -1,0 +1,22 @@
+@startuml
+interface IBookingValidator
+interface IAvailabilityChecker
+interface IBookingRepository
+interface IConfirmationSender
+
+class BookingService
+class BookingValidator
+class AvailabilityChecker
+class BookingRepository
+class ConfirmationSender
+
+BookingService --> IBookingValidator
+BookingService --> IAvailabilityChecker
+BookingService --> IBookingRepository
+BookingService --> IConfirmationSender
+
+BookingValidator ..|> IBookingValidator
+AvailabilityChecker ..|> IAvailabilityChecker
+BookingRepository ..|> IBookingRepository
+ConfirmationSender ..|> IConfirmationSender
+@enduml
