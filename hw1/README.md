@@ -1,9 +1,10 @@
-# Самостійна робота №1 — Generics Cache<T> + Bubble Sort метод бульбашки
+# Самостійна робота №1 — Generics Cache<Т> + Bubble Sort метод бульбашки
 
-**Тема** розробити узагальнений кеш Cache<T> із можливістю:
+**Тема** розробити узагальнений кеш Cache<Т> із можливістю:
 **Мета:** показати роботу з узагальненими типами, власними винятками, обчисленнями з колекціями та сортуванням без LINQ (Bubble Sort метод бульбашки).
 
 ## Суть
+
 - Узагальнений `Cache<T> where T : class, new()` з місткістю та витісненням FIFO.
 - Методи `Add`, `Find`, `Where`, `All`, `Remove`, `BubbleSort(IComparer<T>)`, `Min/Max`.
 - Власні винятки: `InvalidInputException`, `NotFoundException`.
@@ -16,4 +17,4 @@
 Після вводу команди
 `dotnet run`
 виводиться результат
-![](media/image_resultat.png)
+![image](media/image_resultat.png)
