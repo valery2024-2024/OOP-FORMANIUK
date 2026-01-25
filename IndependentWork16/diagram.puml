@@ -1,14 +1,45 @@
 @startuml
-interface IBookingValidator
-interface IAvailabilityChecker
-interface IBookingRepository
-interface IConfirmationSender
 
-class BookingService
-class BookingValidator
-class AvailabilityChecker
-class BookingRepository
-class ConfirmationSender
+interface IBookingValidator {
+    + Validate(user : string) : bool
+}
+
+interface IAvailabilityChecker {
+    + IsAvailable(date : DateTime) : bool
+}
+
+interface IBookingRepository {
+    + Save(user : string, date : DateTime) : void
+}
+
+interface IConfirmationSender {
+    + Send(user : string) : void
+}
+
+class BookingService {
+    - validator : IBookingValidator
+    - checker : IAvailabilityChecker
+    - repository : IBookingRepository
+    - sender : IConfirmationSender
+
+    + CreateBooking(user : string, date : DateTime) : void
+}
+
+class BookingValidator {
+    + Validate(user : string) : bool
+}
+
+class AvailabilityChecker {
+    + IsAvailable(date : DateTime) : bool
+}
+
+class BookingRepository {
+    + Save(user : string, date : DateTime) : void
+}
+
+class ConfirmationSender {
+    + Send(user : string) : void
+}
 
 BookingService --> IBookingValidator
 BookingService --> IAvailabilityChecker
@@ -19,4 +50,5 @@ BookingValidator ..|> IBookingValidator
 AvailabilityChecker ..|> IAvailabilityChecker
 BookingRepository ..|> IBookingRepository
 ConfirmationSender ..|> IConfirmationSender
+
 @enduml
