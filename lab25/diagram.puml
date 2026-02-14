@@ -1,0 +1,101 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam linetype ortho
+
+package "Strategy" {
+
+    interface IDataProcessorStrategy {
+        + Process(data : string) : string
+    }
+
+    class EncryptDataStrategy {
+        + Process(data : string) : string
+    }
+
+    class CompressDataStrategy {
+        + Process(data : string) : string
+    }
+
+    class DataContext {
+        - _strategy : IDataProcessorStrategy
+        + SetStrategy(strategy : IDataProcessorStrategy)
+        + Execute(data : string) : string
+    }
+
+    IDataProcessorStrategy <|.. EncryptDataStrategy
+    IDataProcessorStrategy <|.. CompressDataStrategy
+    DataContext --> IDataProcessorStrategy
+}
+
+package "Observer" {
+
+    interface IObserver {
+        + Update(message : string)
+    }
+
+    class DataPublisher {
+        + DataProcessed : event
+        + Publish(message : string)
+    }
+
+    class ProcessingLoggerObserver {
+        + Update(message : string)
+    }
+
+    IObserver <|.. ProcessingLoggerObserver
+    DataPublisher --> IObserver
+}
+
+package "Factory Method" {
+
+    interface ILoggerFactory {
+        + CreateLogger() : ILogger
+    }
+
+    class ConsoleLoggerFactory {
+        + CreateLogger() : ILogger
+    }
+
+    class FileLoggerFactory {
+        + CreateLogger() : ILogger
+    }
+
+    ILoggerFactory <|.. ConsoleLoggerFactory
+    ILoggerFactory <|.. FileLoggerFactory
+}
+
+package "Logger" {
+
+    interface ILogger {
+        + Log(message : string)
+    }
+
+    class ConsoleLogger {
+        + Log(message : string)
+    }
+
+    class FileLogger {
+        + Log(message : string)
+    }
+
+    ILogger <|.. ConsoleLogger
+    ILogger <|.. FileLogger
+}
+
+package "Singleton" {
+
+    class LoggerManager {
+        - _instance : LoggerManager
+        - _logger : ILogger
+        + Instance : LoggerManager
+        + Initialize(factory : ILoggerFactory)
+        + SetFactory(factory : ILoggerFactory)
+        + Log(message : string)
+    }
+}
+
+LoggerManager --> ILogger
+LoggerManager --> ILoggerFactory
+ProcessingLoggerObserver --> LoggerManager
+
+@enduml
