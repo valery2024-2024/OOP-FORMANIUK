@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FormaniukTicket16.Tests/FormaniukTicket16.Tests.csproj" />
+  <Project Path="FormaniukTicket16/FormaniukTicket16.csproj" />
+</Solution>
